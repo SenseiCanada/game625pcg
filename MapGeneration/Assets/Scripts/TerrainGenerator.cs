@@ -18,7 +18,7 @@ public class TerrainGenerator : MonoBehaviour
     {
         terrain = GetComponent<Terrain>();
         image = new Texture2D(terrain.terrainData.heightmapResolution, terrain.terrainData.heightmapResolution);
-        image.LoadImage(File.ReadAllBytes("Assets/MapTestGray.png"));
+        image.LoadImage(File.ReadAllBytes("Assets/MapTestGrayInverted.png"));
 
     }
 
