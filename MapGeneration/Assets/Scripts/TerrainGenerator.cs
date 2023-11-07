@@ -20,11 +20,7 @@ public class TerrainGenerator : MonoBehaviour
         image = new Texture2D(terrain.terrainData.heightmapResolution, terrain.terrainData.heightmapResolution);
         image.LoadImage(File.ReadAllBytes("Assets/MapReadjusted.png"));
 
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
         ;
         float[,] heightmap = terrain.terrainData.GetHeights(0, 0, terrain.terrainData.heightmapResolution, terrain.terrainData.heightmapResolution);
 
@@ -53,5 +49,11 @@ public class TerrainGenerator : MonoBehaviour
             }
         }
         terrain.terrainData.SetHeights(0, 0, heightmap);
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+
     }
 }
