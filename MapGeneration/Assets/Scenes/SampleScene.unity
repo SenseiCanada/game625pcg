@@ -278,7 +278,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   goals: {fileID: 634743418}
-  birds: {fileID: 520390525207442994, guid: df8e0ac94cca64a5d9ceda3edd948e32, type: 3}
+  birds: {fileID: 2343478246821661929, guid: 87e5b4dc1a5f54b7fbc21ee1d46a440d, type: 3}
 --- !u!4 &856158698
 Transform:
   m_ObjectHideFlags: 0

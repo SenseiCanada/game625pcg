@@ -1371,3 +1371,481 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x2913ab000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.332 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.311 seconds
+Domain Reload Profiling: 1643ms
+	BeginReloadAssembly (90ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (193ms)
+		LoadAssemblies (170ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (50ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1311ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (388ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 588, GUID 3818b9ab8df317a4283de6940b594723)
+Failed to load shader (instanceID 528, GUID 595434cc3b6405246b6cd3086d0b6f7d)
+Failed to load shader (instanceID 664, GUID 42be21d51861d204a889cbdf0eb57221)
+Failed to load shader (instanceID 660, GUID 38f62d38eebe79c418d9572823b61386)
+Failed to load shader (instanceID 666, GUID 78ac6c44194fb734195d6049bcfaee71)
+Failed to load shader (instanceID 610, GUID 5df6daab6a21e1b4a8730bacdb8bdeec)
+Failed to load shader (instanceID 596, GUID 8486e1ca5cc45c34c94df540d5676ec3)
+Failed to load shader (instanceID 608, GUID de3b14d3ca49cd94f9a557d6469ae8fe)
+Failed to load shader (instanceID 590, GUID 61e53729ad706d049b12a441f328fe34)
+Failed to load shader (instanceID 592, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 638, GUID 0d0f817524897904ba47a6a1d55e7668)
+Failed to load shader (instanceID 658, GUID 77cfa04f893eb8745b6a454a3d51b43c)
+Failed to load shader (instanceID 672, GUID bc93937138cb1054e98cf187d5a71cbb)
+Failed to load shader (instanceID 650, GUID 36e335017ad71d54fbb10842863188ae)
+Failed to load shader (instanceID 424, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 642, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 426, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 634, GUID 9629056a28f48b54a8537a7cd16e5d03)
+Failed to load shader (instanceID 652, GUID ba6961570ccc3ce4580b763cfc07d124)
+Failed to load shader (instanceID 428, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 594, GUID 95e15a77195eb574ab82aaac18b1c796)
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/HDRP/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/HDRP/MaterialError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/HDRP/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 181 unused Assets / (17.0 MB). Loaded Objects now: 6927.
+Memory consumption went from 372.0 MB to 355.0 MB.
+Total: 5.051500 ms (FindLiveObjects: 0.180041 ms CreateObjectMapping: 0.074250 ms MarkObjects: 2.600750 ms  DeleteObjects: 2.195666 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15024.335819 seconds.
+  path: Assets/Bird/BirdPrefab.prefab
+  artifactKey: Guid(df8e0ac94cca64a5d9ceda3edd948e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Bird/BirdPrefab.prefab using Guid(df8e0ac94cca64a5d9ceda3edd948e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de0cee7ec2e37a72691bd8c26cfb6b01') in 0.040866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17044f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.277 seconds
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.647 seconds
+Domain Reload Profiling: 925ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (140ms)
+		LoadAssemblies (151ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (647ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (360ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (278ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 588, GUID 3818b9ab8df317a4283de6940b594723)
+Failed to load shader (instanceID 528, GUID 595434cc3b6405246b6cd3086d0b6f7d)
+Failed to load shader (instanceID 664, GUID 42be21d51861d204a889cbdf0eb57221)
+Failed to load shader (instanceID 660, GUID 38f62d38eebe79c418d9572823b61386)
+Failed to load shader (instanceID 666, GUID 78ac6c44194fb734195d6049bcfaee71)
+Failed to load shader (instanceID 610, GUID 5df6daab6a21e1b4a8730bacdb8bdeec)
+Failed to load shader (instanceID 596, GUID 8486e1ca5cc45c34c94df540d5676ec3)
+Failed to load shader (instanceID 608, GUID de3b14d3ca49cd94f9a557d6469ae8fe)
+Failed to load shader (instanceID 590, GUID 61e53729ad706d049b12a441f328fe34)
+Failed to load shader (instanceID 592, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 638, GUID 0d0f817524897904ba47a6a1d55e7668)
+Failed to load shader (instanceID 658, GUID 77cfa04f893eb8745b6a454a3d51b43c)
+Failed to load shader (instanceID 672, GUID bc93937138cb1054e98cf187d5a71cbb)
+Failed to load shader (instanceID 650, GUID 36e335017ad71d54fbb10842863188ae)
+Failed to load shader (instanceID 424, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 642, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 426, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 634, GUID 9629056a28f48b54a8537a7cd16e5d03)
+Failed to load shader (instanceID 652, GUID ba6961570ccc3ce4580b763cfc07d124)
+Failed to load shader (instanceID 428, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 594, GUID 95e15a77195eb574ab82aaac18b1c796)
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/HDRP/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/HDRP/MaterialError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/HDRP/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6368 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 181 unused Assets / (17.0 MB). Loaded Objects now: 6930.
+Memory consumption went from 379.9 MB to 362.9 MB.
+Total: 4.638584 ms (FindLiveObjects: 0.185000 ms CreateObjectMapping: 0.075250 ms MarkObjects: 2.381084 ms  DeleteObjects: 1.996708 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17044f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.265 seconds
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.649 seconds
+Domain Reload Profiling: 915ms
+	BeginReloadAssembly (89ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (13ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (140ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (650ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (362ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 588, GUID 3818b9ab8df317a4283de6940b594723)
+Failed to load shader (instanceID 528, GUID 595434cc3b6405246b6cd3086d0b6f7d)
+Failed to load shader (instanceID 664, GUID 42be21d51861d204a889cbdf0eb57221)
+Failed to load shader (instanceID 660, GUID 38f62d38eebe79c418d9572823b61386)
+Failed to load shader (instanceID 666, GUID 78ac6c44194fb734195d6049bcfaee71)
+Failed to load shader (instanceID 610, GUID 5df6daab6a21e1b4a8730bacdb8bdeec)
+Failed to load shader (instanceID 596, GUID 8486e1ca5cc45c34c94df540d5676ec3)
+Failed to load shader (instanceID 608, GUID de3b14d3ca49cd94f9a557d6469ae8fe)
+Failed to load shader (instanceID 590, GUID 61e53729ad706d049b12a441f328fe34)
+Failed to load shader (instanceID 592, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 638, GUID 0d0f817524897904ba47a6a1d55e7668)
+Failed to load shader (instanceID 658, GUID 77cfa04f893eb8745b6a454a3d51b43c)
+Failed to load shader (instanceID 672, GUID bc93937138cb1054e98cf187d5a71cbb)
+Failed to load shader (instanceID 650, GUID 36e335017ad71d54fbb10842863188ae)
+Failed to load shader (instanceID 424, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 642, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 426, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 634, GUID 9629056a28f48b54a8537a7cd16e5d03)
+Failed to load shader (instanceID 652, GUID ba6961570ccc3ce4580b763cfc07d124)
+Failed to load shader (instanceID 428, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 594, GUID 95e15a77195eb574ab82aaac18b1c796)
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/HDRP/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/HDRP/MaterialError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/HDRP/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.93 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 181 unused Assets / (17.0 MB). Loaded Objects now: 6933.
+Memory consumption went from 387.7 MB to 370.7 MB.
+Total: 4.914042 ms (FindLiveObjects: 0.201000 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.536375 ms  DeleteObjects: 2.095375 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17044f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.270 seconds
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.665 seconds
+Domain Reload Profiling: 934ms
+	BeginReloadAssembly (88ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (133ms)
+		LoadAssemblies (143ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (665ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (378ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (295ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 588, GUID 3818b9ab8df317a4283de6940b594723)
+Failed to load shader (instanceID 528, GUID 595434cc3b6405246b6cd3086d0b6f7d)
+Failed to load shader (instanceID 664, GUID 42be21d51861d204a889cbdf0eb57221)
+Failed to load shader (instanceID 660, GUID 38f62d38eebe79c418d9572823b61386)
+Failed to load shader (instanceID 666, GUID 78ac6c44194fb734195d6049bcfaee71)
+Failed to load shader (instanceID 610, GUID 5df6daab6a21e1b4a8730bacdb8bdeec)
+Failed to load shader (instanceID 596, GUID 8486e1ca5cc45c34c94df540d5676ec3)
+Failed to load shader (instanceID 608, GUID de3b14d3ca49cd94f9a557d6469ae8fe)
+Failed to load shader (instanceID 590, GUID 61e53729ad706d049b12a441f328fe34)
+Failed to load shader (instanceID 592, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 638, GUID 0d0f817524897904ba47a6a1d55e7668)
+Failed to load shader (instanceID 658, GUID 77cfa04f893eb8745b6a454a3d51b43c)
+Failed to load shader (instanceID 672, GUID bc93937138cb1054e98cf187d5a71cbb)
+Failed to load shader (instanceID 650, GUID 36e335017ad71d54fbb10842863188ae)
+Failed to load shader (instanceID 424, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 642, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 426, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 634, GUID 9629056a28f48b54a8537a7cd16e5d03)
+Failed to load shader (instanceID 652, GUID ba6961570ccc3ce4580b763cfc07d124)
+Failed to load shader (instanceID 428, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 594, GUID 95e15a77195eb574ab82aaac18b1c796)
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/HDRP/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/HDRP/MaterialError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/HDRP/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 181 unused Assets / (17.0 MB). Loaded Objects now: 6936.
+Memory consumption went from 395.3 MB to 378.3 MB.
+Total: 5.006500 ms (FindLiveObjects: 0.184625 ms CreateObjectMapping: 0.074542 ms MarkObjects: 2.617000 ms  DeleteObjects: 2.130125 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Thread 0x17044f000 may have been prematurely finalized
+- Loaded All Assemblies, in  0.273 seconds
+Refreshing native plugins compatible for Editor in 0.92 ms, found 2 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.685 seconds
+Domain Reload Profiling: 959ms
+	BeginReloadAssembly (91ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (2ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (14ms)
+	LoadAllAssembliesAndSetupDomain (134ms)
+		LoadAssemblies (146ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (16ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (686ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (388ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (60ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (2ms)
+Failed to load shader (instanceID 588, GUID 3818b9ab8df317a4283de6940b594723)
+Failed to load shader (instanceID 528, GUID 595434cc3b6405246b6cd3086d0b6f7d)
+Failed to load shader (instanceID 664, GUID 42be21d51861d204a889cbdf0eb57221)
+Failed to load shader (instanceID 660, GUID 38f62d38eebe79c418d9572823b61386)
+Failed to load shader (instanceID 666, GUID 78ac6c44194fb734195d6049bcfaee71)
+Failed to load shader (instanceID 610, GUID 5df6daab6a21e1b4a8730bacdb8bdeec)
+Failed to load shader (instanceID 596, GUID 8486e1ca5cc45c34c94df540d5676ec3)
+Failed to load shader (instanceID 608, GUID de3b14d3ca49cd94f9a557d6469ae8fe)
+Failed to load shader (instanceID 590, GUID 61e53729ad706d049b12a441f328fe34)
+Failed to load shader (instanceID 592, GUID a16365e8c873daa4c94919438490b905)
+Failed to load shader (instanceID 638, GUID 0d0f817524897904ba47a6a1d55e7668)
+Failed to load shader (instanceID 658, GUID 77cfa04f893eb8745b6a454a3d51b43c)
+Failed to load shader (instanceID 672, GUID bc93937138cb1054e98cf187d5a71cbb)
+Failed to load shader (instanceID 650, GUID 36e335017ad71d54fbb10842863188ae)
+Failed to load shader (instanceID 424, GUID 50b406436c6214c49aaaa6011b71dde8)
+Failed to load shader (instanceID 642, GUID 4386e57b23a56004c93e1d57d2bbcb4f)
+Failed to load shader (instanceID 426, GUID 5caf62d8bd7c44596ace77ef9eb8ea31)
+Failed to load shader (instanceID 634, GUID 9629056a28f48b54a8537a7cd16e5d03)
+Failed to load shader (instanceID 652, GUID ba6961570ccc3ce4580b763cfc07d124)
+Failed to load shader (instanceID 428, GUID da07703fcc09f8d4799221050659bd55)
+Failed to load shader (instanceID 594, GUID 95e15a77195eb574ab82aaac18b1c796)
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/HDRP/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/HDRP/MaterialError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/HDRP/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Shader 'Hidden/Universal Render Pipeline/FallbackError': fallback shader 'Hidden/Core/FallbackError' not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 6369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 181 unused Assets / (17.0 MB). Loaded Objects now: 6939.
+Memory consumption went from 402.9 MB to 385.9 MB.
+Total: 4.877167 ms (FindLiveObjects: 0.202625 ms CreateObjectMapping: 0.077333 ms MarkObjects: 2.382750 ms  DeleteObjects: 2.213833 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 3918e3fc78b5a79bad01e8451be0beb8 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: a3ef5dd2817f97addfee359851a9dba5 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 

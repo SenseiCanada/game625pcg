@@ -13,8 +13,9 @@ public class BirdAI : MonoBehaviour
     {
         i = Random.Range(0, goalList.Count);
         targetDirection = goalList[i].transform.position - this.transform.position;
-        newDirection = Vector3.RotateTowards(transform.forward, targetDirection, speed, 0.0f);
-        this.transform.rotation = Quaternion.LookRotation(newDirection);
+        this.transform.LookAt(targetDirection);
+        //newDirection = Vector3.RotateTowards(transform.forward, targetDirection, speed, 0.0f);
+        //this.transform.rotation = Quaternion.LookRotation(newDirection);
     }
 
     void Update()
@@ -26,8 +27,9 @@ public class BirdAI : MonoBehaviour
         {
             i = Random.Range(0, goalList.Count);
             targetDirection = goalList[i].transform.position - this.transform.position;
-            newDirection = Vector3.RotateTowards(transform.forward, targetDirection, speed * Time.deltaTime, 0.0f);
-            this.transform.rotation = Quaternion.LookRotation(newDirection);
+            this.transform.LookAt(targetDirection);
+            //newDirection = Vector3.RotateTowards(transform.forward, targetDirection, speed * Time.deltaTime, 0.0f);
+            //this.transform.rotation = Quaternion.LookRotation(newDirection);
         }
     }
 }
